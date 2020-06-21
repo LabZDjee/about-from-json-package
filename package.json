@@ -1,0 +1,26 @@
+{
+  "name": "@labzdjee/about-from-json-package",
+  "version": "1.0.0",
+  "description": "Extract data from package.json to make an about json file with a build sequence",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LabZDjee/about-from-json-package.git"
+  },
+  "author": "Gérard Gauthier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LabZDjee/about-from-json-package/issues"
+  },
+  "homepage": "https://github.com/LabZDjee/about-from-json-package#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "@labzdjee/object-browse": "^1.0.0"
+  }
+}
