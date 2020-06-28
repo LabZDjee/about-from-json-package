@@ -46,8 +46,8 @@ Then in the `scripts` section of `package.json`, rename the normal build script 
 Parameters:
 
 - `packageJsonObject` - object imported from `package.json`. For example as a result of `require("./package.json")`
-- `jsonFilePath` - path and file name of the JSON file to create or update
 - `pattern` - an object which strictly mimics parts of the `package.json` file. Only its structure is used, its terminal values are ignored as they are taken from `packageJsonObject` instead
+- `jsonFilePath` - path and file name of the JSON file to create or update
 - `buildFunction` - a function, if defined will replace the _default_ `build` property handler. It takes the present `build` property string possibly found in previously written JSON file (or `null` if no such file existed) and is expected to return the next one. The default built function is `makeBuildStr` (see below) acting on `Date.now()`
 
 ## `lowLevelStuff`

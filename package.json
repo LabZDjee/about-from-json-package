@@ -1,6 +1,6 @@
 {
   "name": "@labzdjee/about-from-json-package",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Extract data from package.json to make an about json file with a build sequence",
   "main": "index.js",
   "scripts": {
