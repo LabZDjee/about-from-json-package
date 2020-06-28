@@ -63,7 +63,7 @@ function aboutFileFromPackageJson(packageJsonObject, pattern, jsFilePath, buildF
   }
   let aboutObject;
   if (fs.existsSync(jsFilePath)) {
-    aboutObject = require(jsFilePath);
+    aboutObject = JSON.parse(fs.readFileSync(jsFilePath, "utf8"));
   } else {
     aboutObject = { build: null, packageJson: null };
   }
